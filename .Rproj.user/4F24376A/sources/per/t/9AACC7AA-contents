@@ -1,0 +1,27 @@
+#footer {
+  background: #0e0e0e;
+  border-top: 0px solid #0e0e0e;
+  font-size: 0.9em;
+  margin-top: 0px;
+  padding: 0px;
+  clear: both;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 120px; /*Display property can be changed*/
+}
+#footer .social-icons {
+  position: absolute;
+  display: inline-block;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+#footer li {
+  margin: 0;
+  display: inline-block;
+  /*For display only*/
+  width: 10px;
+  height: 10px;
+  background-color: firebrick;
+}

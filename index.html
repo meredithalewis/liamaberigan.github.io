@@ -11,9 +11,9 @@
 
 
 
-<title>Person McPersonFace</title>
+<title>Liam A. Berigan</title>
 
-<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.19/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/yeti.min.css" rel="stylesheet" />
@@ -145,11 +145,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -178,8 +182,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -187,16 +191,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -245,48 +242,64 @@ $(document).ready(function () {
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="index.html">Person McPersonFace</a>
+      <a class="navbar-brand" href="index.html">Liam A. Berigan</a>
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
         <li>
-  <a href="index.html">Home</a>
+  <a href="index.html">
+    <span class="fa fa-home"></span>
+     
+    Home
+  </a>
+</li>
+<li>
+  <a href="research.html">
+    <span class="fa fa-feather"></span>
+     
+    Research
+  </a>
+</li>
+<li>
+  <a href="applications.html">
+    <span class="fa fa-code"></span>
+     
+    Applications
+  </a>
+</li>
+<li>
+  <a href="misc.html">
+    <span class="fa fa-microphone-alt"></span>
+     
+    Misc
+  </a>
 </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li>
-  <a href="https://github.com/hgoldspiel">
+  <a href="https://github.com/LiamABerigan">eBird</a>
+</li>
+<li>
+  <a href="https://github.com/LiamABerigan">
     <span class="fa fa-github"></span>
      
   </a>
 </li>
 <li>
-  <a href="https://www.researchgate.net/profile/Harrison_Goldspiel">
+  <a href="https://www.researchgate.net/profile/Liam-Berigan">
     <span class="ai ai-researchgate"></span>
      
   </a>
 </li>
 <li>
-  <a href="https://scholar.google.com/citations?user=OCbS0DMAAAAJ&amp;hl=en">
+  <a href="https://scholar.google.com/citations?user=ql-OqKQAAAAJ&amp;hl=en">
     <span class="fa fa-graduation-cap"></span>
      
   </a>
 </li>
 <li>
-  <a href="http://harryonwheels.tumblr.com/">
-    <span class="fa fa-tumblr"></span>
-     
-  </a>
-</li>
-<li>
-  <a href="https://twitter.com/hbgoldspiel">
+  <a href="https://twitter.com/LA_Berigan">
     <span class="fa fa-twitter"></span>
-     
-  </a>
-</li>
-<li>
-  <a href="https://www.linkedin.com/in/harrisongoldspiel/">
-    <span class="fa fa-linkedin"></span>
      
   </a>
 </li>
@@ -299,22 +312,27 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">Person McPersonFace</h1>
+<h1 class="title toc-ignore">Liam A. Berigan</h1>
 
 </div>
 
 
 <p><img src="images/person_pic.png" style="width:25%; margin-right: 20px" align="left">
    </p>
-<p>Greetings! My name is Person McPersonFace! This is my website!</p>
-<p>I am currently a MSc/PhD Student at the <a
+<p>I am currently a doctoral candidate at the <a
 href="https://www.umaine.edu">University of Maine</a> in the Department
-of Wildlife, Fisheries, and Conservation Biology with Dr. Fancy
-McFancyPants.</p>
-<p>Welcome to my personal website for sharing all my accomplishments and
-other weird factos about my life.</p>
-<p>My full CV is available <a
-href="files/McPersonFace_CV.pdf">here</a>.</p>
+of Wildlife, Fisheries, and Conservation Biology. My work focuses on the
+movements, habitat use, and population dynamics of wildlife, especially
+bird species. I have particular interests in migration and the
+conservation of at-risk species through techniques such as
+translocation.</p>
+<p>I am also passionate about the effective communication of results and
+scientific recommendations to wildlife agencies and the public. Some of
+my recent work has used <a href="https://www.google.com">Shiny</a>
+applications as an interactive platform to allow stakeholders to access
+data and results. I’ve included a gallery of those applications <a
+href="https://www.google.com">here</a>.</p>
+<p>My CV is available <a href="files/McPersonFace_CV.pdf">here</a>.</p>
 
 <br />
 <br />
