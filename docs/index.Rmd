@@ -3,7 +3,6 @@ title: "Person McPersonFace"
 output:
   html_document
 ---
-
 <img src="images/person_pic.png" style="width:25%; margin-right: 20px" align="left">
 \ 
 \ 
@@ -14,4 +13,4 @@ I am currently a MSc/PhD Student at the [University of Maine](https://www.umaine
 
 Welcome to my personal website for sharing all my accomplishments and other weird factos about my life.
 
-My full CV is available [here](docs/McPersonFace_CV.pdf).
+My full CV is available [here](files/McPersonFace_CV.pdf).
