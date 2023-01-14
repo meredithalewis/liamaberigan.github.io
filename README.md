@@ -1,2 +1,2 @@
-# Coding Club
-Shared repo for UMaine coding thingies.
+# Academic website
+Providing an overview of my research topics and recent papers 
