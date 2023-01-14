@@ -1,0 +1,29 @@
+name: "my-website"
+navbar:
+  title: "Person McPersonFace"
+  left:
+    - text: "Home"
+      href: index.html
+  right:
+    - icon: fa-github
+      href: https://github.com/hgoldspiel
+    - icon: ai-researchgate
+      href: https://www.researchgate.net/profile/Harrison_Goldspiel
+    - icon: fa-graduation-cap
+      href: https://scholar.google.com/citations?user=OCbS0DMAAAAJ&hl=en
+    - icon: fa-tumblr
+      href: http://harryonwheels.tumblr.com/
+    - icon: fa-twitter
+      href: https://twitter.com/hbgoldspiel
+    - icon: fa-linkedin
+      href: https://www.linkedin.com/in/harrisongoldspiel/
+output_dir: "."
+output:
+  html_document:
+    theme: yeti
+    css:
+    - custom.css
+    - academicons-1.8.6/css/academicons.css
+    include:
+      after_body: footer_normal.html
+      

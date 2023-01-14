@@ -1,0 +1,17 @@
+---
+title: "Person McPersonFace"
+output:
+  html_document
+---
+
+<img src="images/person_pic.png" style="width:25%; margin-right: 20px" align="left">
+\ 
+\ 
+
+Greetings! My name is Person McPersonFace! This is my website! 
+
+I am currently a MSc/PhD Student at the [University of Maine](https://www.umaine.edu) in the Department of Wildlife, Fisheries, and Conservation Biology with Dr. Fancy McFancyPants.
+
+Welcome to my personal website for sharing all my accomplishments and other weird factos about my life.
+
+My full CV is available [here](docs/McPersonFace_CV.pdf).
