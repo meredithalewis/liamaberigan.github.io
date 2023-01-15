@@ -6,7 +6,7 @@ output:
 
 <div class = row>
 <div class = col-md-6>
-```{r, echo=FALSE, fig.cap = "Land cover at Heiberg Memorial Forest (Tully, NY) in 1936 (top) and 2015 (bottom).", fig.show='hold', fig.align='left'}
+```{r, echo=FALSE, fig.cap = "Yours truly", fig.show='hold', fig.align='center'}
 knitr::include_graphics("images/K.L. Akerlof 1122-20.jpg")
 ```
 </div>
@@ -22,9 +22,6 @@ My CV is available [here](files/Liam_Berigan_CV_12_4_2022.pdf).
 
 <hr />
 <center>
-<div>
-<video display=block width='640' height='480' autoplay loop class="vbt"> <source src='images/VT_migration_animation.mp4' type='video/mp4'></video>
-<p class="caption" style="padding: 0px;margin: 0px;border: 0px">Land cover at Heiberg Memorial Forest (Tully, NY) in 1936 (top) and 2015(bottom).</p>
-</div>
-</center>
+![Woodcock tagged in Vermont disperse throughout the southeast during their fall migration](images/ezgif.com-gif-maker.gif)
 
+</center>
