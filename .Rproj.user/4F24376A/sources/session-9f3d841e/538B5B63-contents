@@ -12,11 +12,10 @@ navbar:
       icon: fa-code
       href: applications.html 
     - text: "Misc"
-      icon: fa-microphone-alt
-      href: misc.html
       menu:
-        - text: "Text A"
-          href: page_a.html
+        - text: "Audio recordings"
+          icon: fa-microphone-alt
+          href: audio_recordings.html
   right:
     - text: "eBird"
       href: https://ebird.org/profile/NDUyNDky
