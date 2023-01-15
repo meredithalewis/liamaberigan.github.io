@@ -14,9 +14,12 @@ navbar:
     - text: "Misc"
       icon: fa-microphone-alt
       href: misc.html
+      menu:
+        - text: "Text A"
+          href: page_a.html
   right:
     - text: "eBird"
-      href: https://github.com/LiamABerigan
+      href: https://ebird.org/profile/NDUyNDky
     - icon: fa-github
       href: https://github.com/LiamABerigan
     - icon: ai-researchgate

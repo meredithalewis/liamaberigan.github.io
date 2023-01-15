@@ -3,7 +3,7 @@
     "path": "C:/Users/liama/OneDrive - University of Maine System/liamaberigan.github.io/index.Rmd",
     "project_path": "index.Rmd",
     "type": "r_markdown",
-    "hash": "2820010628",
+    "hash": "2843498132",
     "contents": "",
     "dirty": false,
     "created": 1673712175537.0,
@@ -12,15 +12,15 @@
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "8,0",
-        "scrollLine": "1"
+        "cursorPosition": "6,0",
+        "scrollLine": "0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1673718443,
+    "lastKnownWriteTime": 1673741868,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1673718443698,
+    "last_content_update": 1673741868252,
     "read_only": false,
     "read_only_alternatives": []
 }
