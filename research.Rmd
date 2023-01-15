@@ -2,8 +2,6 @@
 title: "Research"
 output: html_document
 ---
-<img src="images/person_pic.png" style="width:25%; margin-right: 20px" align="left">
-
 ## Migratory strategies and habitat use
 
 ## Conservation of at-risk species

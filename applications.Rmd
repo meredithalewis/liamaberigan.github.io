@@ -3,8 +3,14 @@ title: "Applications"
 output: html_document
 ---
 
+
 [Migration Explore App](https://www.woodcockmigration.org/migration.html)
 
 [Woodcock Explore App](https://www.woodcockmigration.org/explore-data.html)
 
 [W-PAST](https://woodcock.shinyapps.io/W-PAST)
+
+
+```{r, echo=FALSE, fig.cap = "Land cover at Heiberg Memorial Forest (Tully, NY) in 1936 (top) and 2015 (bottom).", fig.show='hold', fig.align='center'}
+knitr::include_app("https://woodcock.shinyapps.io/W-PAST", height = "400px")
+``` 

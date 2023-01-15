@@ -3,12 +3,28 @@ title: "Liam A. Berigan"
 output:
   html_document
 ---
-<img src="images/person_pic.png" style="width:25%; margin-right: 20px" align="left">
 
-Website under construction! Your patience is appreciated.
+<div class = row>
+<div class = col-md-6>
+```{r, echo=FALSE, fig.cap = "Land cover at Heiberg Memorial Forest (Tully, NY) in 1936 (top) and 2015 (bottom).", fig.show='hold', fig.align='left'}
+knitr::include_graphics("images/K.L. Akerlof 1122-20.jpg")
+```
+</div>
 
+<div class = col-md-6>
 I am currently a doctoral candidate at the [University of Maine](https://www.umaine.edu) in the Department of Wildlife, Fisheries, and Conservation Biology. My work focuses on the movements, habitat use, and population dynamics of wildlife, especially bird species. I have particular interests in migration and the conservation of at-risk species through techniques such as translocation.
 
 I am also passionate about the effective communication of results and scientific recommendations to wildlife agencies and the public. Some of my recent work has used [Shiny](https://www.shinyapps.io/) applications as an interactive platform to allow stakeholders to access data and results. I've included a gallery of those applications [here](applications.html).
 
 My CV is available [here](files/Liam_Berigan_CV_12_4_2022.pdf).
+</div>
+</div>
+
+<hr />
+<center>
+<div>
+<video display=block width='640' height='480' autoplay loop class="vbt"> <source src='images/VT_migration_animation.mp4' type='video/mp4'></video>
+<p class="caption" style="padding: 0px;margin: 0px;border: 0px">Land cover at Heiberg Memorial Forest (Tully, NY) in 1936 (top) and 2015(bottom).</p>
+</div>
+</center>
+

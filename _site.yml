@@ -1,4 +1,4 @@
-name: "my-website"
+name: "berigan-personal-website"
 navbar:
   title: "Liam A. Berigan"
   left:
@@ -34,6 +34,7 @@ output:
     theme: yeti
     css:
     - custom.css
+    - style.css
     - academicons-1.8.6/css/academicons.css
     include:
       after_body: footer_normal.html

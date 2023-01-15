@@ -1,0 +1,144 @@
+---
+title: "Research"
+date: 'Last updated: `r format(Sys.time(), "%d %B %Y")`'
+output:
+  html_document:
+    toc: true
+    toc_float:
+      collapsed: true
+      smooth_scroll: true
+---
+
+My research mostly resides in the realm of ecology and conservation biology, with a focus on amphibians and reptiles. I am most interested in studying wildlife populations over different gradients of natural and human disturbance, and applying those relationships for understanding future threats against biodiversity and guiding conservation planning. I work with a variety of organisms and ecosystems, ranging from vernal pool amphibians to Galápagos tortoises, and use various quantitative techniques for studying ecological and demographic processes. I'm also interested in social dimensions of wildlife ecology and using historical data and social-ecological frameworks to better understand complex conservation stories.
+
+Here is a short list of some projects I've worked on over the last several years.
+
+***
+## Population biology and restoration ecology
+
+```{r, echo=FALSE, out.width="60%", out.height="60%", fig.cap="Left: A Tapichalaca tree frog (Hyloscirtus tapichalaca) from southern Ecuador. Right: Spotted salamander (Ambystoma maculatum).", fig.show='hold', fig.align='center'}
+knitr::include_graphics("images/amphibs.jpg")
+``` 
+\ 
+
+***
+### *Land-use legacies*
+
+<div class = "row">
+<div class = "col-md-6">
+
+Most forests in the eastern United States have rich histories of human disturbance, many having once been cleared for agriculture and regenerated in the last century. These landscape transformations came at a cost for seasonal wetlands, also known as “vernal pools” in the northeast, which are central to the life cycles of many frogs and salamanders. In recent decades, many landowners have taken to creating artificial pools as a means of restoring amphibian habitat, but these created pools have mixed rates of success for amphibian populations. 
+
+For my master's thesis, I was interested in how historical landscape setting (i.e., adult habitat quality) and pool densities (i.e., larval habitat availability) interactively affect the outcome of these habitat restoration projects. This work occurred at Heiberg Memorial Forest, an experimental research station operated by SUNY ESF in Tully, NY.</div>
+
+<div class = "col-md-6">
+\ 
+\ 
+\ 
+\ 
+
+
+```{r, echo=FALSE, fig.cap = "Land cover at Heiberg Memorial Forest (Tully, NY) in 1936 (top) and 2015 (bottom).", fig.show='hold', fig.align='center'}
+knitr::include_graphics("images/heiberg_history.jpg")
+``` 
+</div>
+</div>
+
+\ 
+\ 
+
+*Relevant literature:*
+
+- **Goldspiel HB** 2018. "Forest Legacy Effects on Amphibian Populations: Integrating Land and Life Histories in Conservation" (2018). Dissertations and Theses. 40. https://digitalcommons.esf.edu/etds/40
+
+- **Goldspiel HB**, Cohen JB, McGee GG, Gibbs JP. 2019. Forest land-use history affects outcomes of habitat augmentation for amphibian conservation. *Global Ecology and Conservation* 19. https://doi.org/10.1016/j.gecco.2019.e00686
+
+*Media:* [The Wildlife Society](https://wildlife.org/spotted-salamanders-prefer-legacy-forests/)
+
+***
+
+
+### *Island rewilding*
+
+I have been collaborating with Galapagos Conservancy's [Giant Tortoise Restoration Initiative](https://www.galapagos.org/conservation/our-work/tortoise-restoration/) (GTRI) since 2018, providing technical support on long-term demographic and ecological data on tortoises and islands in the Galápagos archipelago. 
+
+```{r, echo = FALSE, fig.cap = "Population regeneration of giant tortoises on Española following 50 years of captive breeding and repatriation.", fig.height=6, fig.width=8, fig.show='hold', fig.align='center'}
+
+knitr::include_graphics("images/espanola_tort.png")
+```
+
+Once numbered in the hundreds of thousands throughout the archipelago, Galápagos tortoises have suffered extreme population declines and extinctions over hundreds of years due to human activity. GTRI works together with the Galápagos National Park Directorate to restore tortoise populations to their historical ranges and sizes, via research, captive breeding, and management programs.
+
+*Relevant literature:*
+
+- Tapia, WA, **Goldspiel, HB**, Gibbs, JP. 2022. Introduction of giant tortoises as a replacement “ecosystem engineer” to facilitate restoration of Santa Fe Island, Galapagos. *Restoration Ecology*: e13476. https://doi.org/10.1111/rec.13476 
+
+- Tapia, WA, **Goldspiel, HB**, Sevilla, C, Málaga J, Gibbs, JP. 2020. Santa Fe Island: Return of Tortoises via a Replacement Species. In: Gibbs, JP, Cayot, L, Tapia, WA, editors. *Galapagos Tortoises, 1st Edition*. Academic Press, Cambridge, MA.
+
+- Gibbs, JP and **Goldspiel, HB**. 2020. Population Biology. In: Gibbs, JP, Cayot, L, Tapia, WA, editors. *Galapagos Tortoises, 1st Edition*. Academic Press, Cambridge, MA.
+
+*Media:* [NY Times](https://www.nytimes.com/2020/01/12/world/americas/diego-tortoise-sex-drive.html), [The Guardian](https://www.theguardian.com/world/2020/feb/02/galapagos-experts-find-a-tortoise-related-to-lonesome-george), [The Daily Show](https://www.youtube.com/watch?v=hFbYgad3UXo), [Wait Wait Don't Tell Me](https://www.npr.org/2020/01/18/797574404/bluff-the-listener)
+
+***
+
+
+### *Amphibians and biotechnology*
+
+With rapid advancements in transgenic research, biotechnology has become more commonplace in discussions about ecological restoration. These techniques present numerous opportunities for conservation, as well as numerous uncertainties about potential non-target effects on other organisms. Following decades of research at SUNY ESF with the [American Chestnut Project](https://www.esf.edu/chestnut/), American chestnut (*Castanea dentata*) has become a primary case study of species restoration using biotechnology. As part of the regulatory approval process for planting these trees, various studies have been done to examine non-target effects on native species and ecological processes. Until 2017, no research had yet been conducted to examine potential effects of transgenic chestnut on forest vertebrates, such as amphibians. In collaboration with the American Chestnut Project, I conducted a lab survival experiment to study interactions between transgenic American chestnut litter and amphibian larvae.
+
+```{r, echo=FALSE, out.width="60%", out.height="60%", fig.cap="Left: Sample vials of leaf litter with pond water from central New York. Right: a wood frog (Lithobates sylvaticus) tadpole.", fig.show='hold', fig.align='center'}
+knitr::include_graphics("images/litter_tadpole.jpg")
+``` 
+
+*Relevant literature:*
+
+- **Goldspiel HB**, Newhouse AE, Powell WA, Gibbs JP. 2018. Effects of transgenic American chestnut leaf litter on growth and survival of wood frog larvae. *Restoration Ecology*: 1–8. https://doi.org/10.1111/rec.12879
+
+*Media:* [Pacific Standard](https://psmag.com/ideas/most-controversial-tree-in-the-world-gmo-genetic-engineering)
+
+
+***
+## Social media and forest recreation
+
+<div class = "row">
+<div class = "col-md-6">
+
+Social media platforms have become fixtures of modern society, defining how millions of individuals interact with each other and their environment. The smart phone era has consequently produced an overabundance of rich, textured data on human behavior. I've been working with researchers at SUNY ESF to better understand how these data can be used to inform conservation and land management in the northeastern United States. Using geo-tagged photographs from Flickr, we have been investigating how social media activity relates to park visitation and different landscape characteristics.</div>
+  
+<div class = "col-md-6">
+```{r, message=FALSE, echo=FALSE}
+knitr::include_graphics("images/flickr_NFR.jpg")
+```
+</div>
+</div>
+
+*Project websites:* [ESF](https://www.esf.edu/socialmediastudy), [NSRC](https://nsrcforest.org/project/using-social-media-quantify-forest-based-tourism)
+\ 
+
+*Vignettes:* [Point pattern analysis](Flickr_hotspot_mapping.html), [Flickr tag mapping](https://www.esf.edu/socialmediastudy/Flickr_tag_mapping_website.html)
+\ 
+
+*Relevant literature:*
+
+- **Goldspiel HB**, Barr B, Badding J, Kuehn D. Using crowdsourced photography and automated image classification to understand spatiotemporal patterns of nature-based recreation in large rural landscapes. *In review*.
+
+- Kuehn D, Gibbs J, **Goldspiel HB**, Barr B, Sampson A, Moutenot M, Badding J, Stradtman L. 2020. Using Social Media Data and Park Characteristics to Understand Park Visitation. *The Journal of Park and Recreation Administration* 38.2: 1–12. https://doi.org/10.18666/JPRA-2019-10035
+
+***
+## Social-ecological systems
+
+<div class = "row">
+<div class = "col-md-6">
+
+Reconciling human livelihoods with ecological health is necessary for sustaining societies and ecosystems in our era of rapid global environmental change. Social-ecological systems (SES) frameworks provide useful methodological foundations for identifying effective environmental and public policies in a variety of settings. 
+
+With researchers at SUNY ESF, I have been applying an SES framework to understand social and economic processes that influence livelihood and landscape outcomes in traditional herder-grassland systems. This work stems from interviews with herders and remote sensing data of alpine grasslands in the Altai mountains of central Eurasia, a UNESCO World Heritage region undergoing current geopolitical change.</div>
+
+<div class = "col-md-6">
+```{r, message=FALSE, echo=FALSE, fig.cap = "Relationships among social-ecological components of Altai herder-grassland systems."}
+knitr::include_graphics("images/altai_SES_correlations.png")
+```
+</div>
+</div>
+
+\ 

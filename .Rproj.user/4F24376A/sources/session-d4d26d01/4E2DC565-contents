@@ -1,0 +1,20 @@
+footer {
+       position: absolute;
+       bottom:0; 
+}
+
+img {
+    image-orientation: from-image;
+}
+
+.caption {
+  font-size: 0.8em;
+  font-style: italic;
+  color: grey;
+}
+
+.vbt{
+  padding: 0px!important;
+  border: 0px!important;
+  margin: 0px!important;
+}

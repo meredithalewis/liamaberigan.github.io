@@ -1,0 +1,41 @@
+name: "berigan-personal-website"
+navbar:
+  title: "Liam A. Berigan"
+  left:
+    - text: "Home"
+      icon: fa-home
+      href: index.html
+    - text: "Research"
+      icon: fa-feather
+      href: research.html
+    - text: "Applications"
+      icon: fa-code
+      href: applications.html 
+    - text: "Misc"
+      menu:
+        - text: "Audio recordings"
+          icon: fa-microphone-alt
+          href: audio_recordings.html
+  right:
+    - text: "eBird"
+      href: https://ebird.org/profile/NDUyNDky
+    - icon: fa-github
+      href: https://github.com/LiamABerigan
+    - icon: ai-researchgate
+      href: https://www.researchgate.net/profile/Liam-Berigan
+    - icon: fa-graduation-cap
+      href: https://scholar.google.com/citations?user=ql-OqKQAAAAJ&hl=en
+    - icon: fa-twitter
+      href: https://twitter.com/LA_Berigan
+
+output_dir: "."
+output:
+  html_document:
+    theme: yeti
+    css:
+    - custom.css
+    - style.css
+    - academicons-1.8.6/css/academicons.css
+    include:
+      after_body: footer_normal.html
+      
