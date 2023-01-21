@@ -10,12 +10,11 @@ navbar:
       href: research.html
     - text: "Applications"
       icon: fa-code
-      href: applications.html 
-    - text: "Misc"
-      menu:
-        - text: "Audio recordings"
-          icon: fa-microphone-alt
-          href: audio_recordings.html
+      href: applications.html
+    - text: "EWMRC"
+      icon: fa-kiwi-bird
+      href: https://www.woodcockmigration.org/
+
   right:
     - text: "eBird"
       href: https://ebird.org/profile/NDUyNDky

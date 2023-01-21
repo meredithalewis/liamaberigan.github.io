@@ -1,0 +1,5 @@
+    - text: "Misc"
+      menu:
+        - text: "Audio recordings"
+          icon: fa-microphone-alt
+          href: audio_recordings.html
