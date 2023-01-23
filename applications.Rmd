@@ -5,25 +5,33 @@ output: html_document
 ## Exploring woodcock migration
 <div class = row>
 <div class = col-md-4>
+<center>
 ![Woodcock tagged in Vermont disperse throughout the southeast during their fall migration](images/lpc_circle.png)
+</center>
 </div>
 
 <div class = col-md-8>
 During my work with the Eastern Woodcock Migration Research Cooperative ([EWMRC](https://www.woodcockmigration.org/)) I built several tools to improve our ability to communicate results to the public. The first is the [Migration Exploration App](https://www.woodcockmigration.org/migration.html), which is used in concert with our weekly updates to update the public on the migratory routes and timing of tagged woodcock. The second application is the [Archived Data Exploration App](https://www.woodcockmigration.org/explore-data.html), which allows users to view full migrations from over 500 tagged woodcock throughout the course of the project.
-
-![Woodcock tagged in Vermont disperse throughout the southeast during their fall migration](images/ezgif.com-gif-maker.gif)
+<center>
+![Woodcock tagged in Vermont disperse throughout the southeast during their fall migration](images/VT_migration_animation.gif)
+</center>
 </div>
 </div>
 <hr />
 ## Interactive habitat prioritization tools
 <div class = row>
 <div class = col-md-4>
+<center>
 ![Woodcock tagged in Vermont disperse throughout the southeast during their fall migration](images/lpc_circle.png)
+</center>
 </div>
 
 <div class = col-md-8>
 During a collaborative project with the [Pennsylvania Game Commission](www.google.com), we built an application to allow PGC employees to interactively weight migratory and breeding season habitat suitability when making woodcock habitat conservation decisions. The resulting application, called [W-PAST](https://woodcock.shinyapps.io/W-PAST), has since been used to support woodcock habitat funding proposals in Pennsylvania.
-![Woodcock tagged in Vermont disperse throughout the southeast during their fall migration](images/ezgif.com-gif-maker.gif)
+
+<center>
+![W-PAST illustrates how woodcock habitat suitability changes between breeding and migratory seasons](images/wpast_anim60.gif)
+</center>
 </div>
 </div>
 

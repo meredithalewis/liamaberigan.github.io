@@ -5,14 +5,16 @@ output: html_document
 ## Migratory strategies and habitat use
 <div class = row>
 <div class = col-md-4>
+<center>
 ![Woodcock tagged in Vermont disperse throughout the southeast during their fall migration](images/lpc_circle.png)
+</center>
 </div>
 
 <div class = col-md-8>
 lorem ipsum
 </div>
 </div>
-
+<hr />
 ## Conservation of at-risk species
 <div class = row>
 <div class = col-md-8>
@@ -21,17 +23,19 @@ lorem ipsum
 **Berigan, L. A.** (2019). Dispersal, reproductive success, and habitat use by translocated lesser prairie-chickens (Master's thesis). [PDF](files/Berigan_MastersThesis.pdf)
 </div>
 <div class = col-md-4>
+<center>
 ![Woodcock tagged in Vermont disperse throughout the southeast during their fall migration](images/lpc_circle.png)
+</center>
 </div>
 </div>
-
-
-
+<hr />
 ## Urban bird declines
 
 <div class = row>
 <div class = col-md-4>
-![Woodcock tagged in Vermont disperse throughout the southeast during their fall migration](images/lpc_circle.png)
+<center>
+![Artwork by Jen Lobo, frontispiece for the Wilson Journal of Ornithology Issue tk.](images/HOSP_JenLobo.png)
+</center>
 </div>
 
 <div class = col-md-8>
