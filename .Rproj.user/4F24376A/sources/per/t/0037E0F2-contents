@@ -2,6 +2,7 @@
 title: "Applications"
 output: html_document
 ---
+<hr />
 ## Exploring woodcock migration
 <div class = row>
 <div class = col-md-4>
@@ -27,8 +28,7 @@ During my work with the Eastern Woodcock Migration Research Cooperative ([EWMRC]
 </div>
 
 <div class = col-md-8>
-During a collaborative project with the [Pennsylvania Game Commission](www.google.com), we built an application to allow PGC employees to interactively weight migratory and breeding season habitat suitability when making woodcock habitat conservation decisions. The resulting application, called [W-PAST](https://woodcock.shinyapps.io/W-PAST), has since been used to support woodcock habitat funding proposals in Pennsylvania.
-
+During a collaborative project with the [Pennsylvania Game Commission](www.google.com), we built an application to allow PGC employees to interactively weight migratory and breeding season habitat suitability when making woodcock habitat conservation decisions. The resulting tool, called [W-PAST](https://woodcock.shinyapps.io/W-PAST), has since been used to inform state-level management and support woodcock habitat funding proposals in Pennsylvania.
 <center>
 ![W-PAST illustrates how woodcock habitat suitability changes between breeding and migratory seasons](images/wpast_anim60.gif)
 </center>
