@@ -12,9 +12,12 @@ output: html_document
 </div>
 
 <div class = col-md-8>
-During my work with the Eastern Woodcock Migration Research Cooperative ([EWMRC](https://www.woodcockmigration.org/)) I built several tools to improve our ability to communicate results to the public. The first is the [Migration Exploration App](https://www.woodcockmigration.org/migration.html), which is used in concert with our weekly updates to update the public on the migratory routes and timing of tagged woodcock. The second application is the [Archived Data Exploration App](https://www.woodcockmigration.org/explore-data.html), which allows users to view full migrations from over 500 tagged woodcock throughout the course of the project.
+During my work with the Eastern Woodcock Migration Research Cooperative ([EWMRC](https://www.woodcockmigration.org/)) I built several tools to improve our ability to communicate results to the public. The first is the [Migration Exploration App](https://www.woodcockmigration.org/migration.html), which is used in concert with our weekly updates to update the public on the migratory routes and timing of tagged woodcock. The second application is the [Historical Data Exploration App](https://www.woodcockmigration.org/explore-data.html), which allows users to view full migrations from over 500 tagged woodcock throughout the course of the project.
+<br>
+<br>
 <center>
-![Woodcock tagged in Vermont disperse throughout the southeast during their fall migration](images/VT_migration_animation.gif)
+![The Migration Exploration App shows satellite-tagged woodcock migrating north in the Spring](images/app_anim15.gif)
+
 </center>
 </div>
 </div>
