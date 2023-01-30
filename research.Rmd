@@ -4,10 +4,11 @@ output: html_document
 ---
 <hr />
 ## Migratory strategies and habitat use
+<br>
 <div class = row>
 <div class = col-md-4>
 <center>
-![An American Woodcock forages in a swamp during an early spring snowfall](images/woodcock_circle2.png)
+![<br>An American Woodcock forages in a swamp during an early spring snowfall](images/woodcock_circle2.png)
 </center>
 </div>
 
@@ -17,6 +18,7 @@ lorem ipsum
 </div>
 <hr />
 ## Conservation of at-risk species
+<br>
 <div class = row>
 <div class = col-md-8>
 **Berigan, L. A.**, Aulicky, C. S., Teige, E. C., Sullins, D. S., Haukos, D. A., Fricke, K. A., ... & Ricketts, A. M. (2022). Availability of lesser prairie‐chicken nesting habitat impairs restoration success. Wildlife Society Bulletin, 46(5), e1379. [PDF](files/Berigan_LPCHabitat_2022.pdf)
@@ -25,21 +27,21 @@ lorem ipsum
 </div>
 <div class = col-md-4>
 <center>
-![Lesser prairie-chicken tagged with a VHF transmitter in preparation for translocation](images/lpc_circle.png)
+![<br>Lesser prairie-chicken tagged with a VHF transmitter in preparation for translocation](images/lpc_circle.png)
 </center>
 </div>
 </div>
 <hr />
 ## Urban bird declines
-
+<br>
 <div class = row>
 <div class = col-md-4>
 <center>
-![Artwork by Jen Lobo, frontispiece for the Wilson Journal of Ornithology (Issue 132)](images/HOSP_JenLobo.png)
+![<br>Artwork by Jen Lobo, frontispiece for the Wilson Journal of Ornithology (Issue 132)](images/HOSP_JenLobo.png)
 </center>
 </div>
 <div class = col-md-8>
-[Over 8 billion birds]() have disappeared from North America since 1970, in large part due to massive declines in abundance among common bird species. While at Cornell University, I was a part of a team that used [Project Feederwatch]() to measure trends in House Sparrow abundance and evaluate potential reasons for their disappearance. We found that House Sparrow declines were closely linked to highly-urbanized landscapes, and did not appear to be related to the resurgence in *Accipiter* hawk populations that contributed to declines in Europe. The cause of House Sparrow declines in North America is likely tightly linked to urban landscapes, and may include the modification of urban greenspaces or feral cat populations. Our results were published in the Wilson Journal of Ornithology in 2020.
+[Nearly 3 billion birds](https://www.birds.cornell.edu/home/bring-birds-back/) have disappeared from North America since 1970, in large part due to massive declines in abundance among common bird species. While at Cornell University, I was a part of a team that used [Project Feederwatch](https://feederwatch.org/) to measure trends in House Sparrow abundance and evaluate potential reasons for their disappearance. We found that House Sparrow declines were closely linked to highly-urbanized landscapes, and did not appear to be related to the resurgence in *Accipiter* hawk populations that contributed to declines in Europe. The cause of House Sparrow declines in North America is likely tightly linked to urban landscapes, and may include the modification of urban greenspaces or feral cat populations. Our results were published in the Wilson Journal of Ornithology in 2020.
 
 **Berigan, L. A.**, Greig, E. I., & Bonter, D. N. (2020). Urban House Sparrow (*Passer domesticus*) populations decline in North America. The Wilson Journal of Ornithology, 132(2), 248-258. [PDF](files/Berigan_HouseSparrow_2020.pdf)
 

@@ -4,10 +4,11 @@ output: html_document
 ---
 <hr />
 ## Exploring woodcock migration
+<br>
 <div class = row>
 <div class = col-md-4>
 <center>
-![Woodcock tagged in Vermont disperse throughout the southeast during their fall migration](images/lpc_circle.png)
+![<br>A satellite-tagged American Woodcock (Billy Pope, ALDNR)](images/woodcock_transmitter_circle.png)
 </center>
 </div>
 
@@ -16,17 +17,18 @@ During my work with the Eastern Woodcock Migration Research Cooperative ([EWMRC]
 <br>
 <br>
 <center>
-![The Migration Exploration App shows satellite-tagged woodcock migrating north in the Spring](images/app_anim15.gif)
+![<br>The Migration Exploration App shows satellite-tagged woodcock migrating north in the spring](images/app_anim15.gif)
 
 </center>
 </div>
 </div>
 <hr />
 ## Interactive habitat prioritization tools
+<br>
 <div class = row>
 <div class = col-md-4>
 <center>
-![Woodcock tagged in Vermont disperse throughout the southeast during their fall migration](images/lpc_circle.png)
+![<br>Satellite-tagged woodcock using nesting habitat (Photo credit: Mathieu Tetreault, Environment and Climate Change Canada)](images/nesting_woodcock_circle.png)
 </center>
 </div>
 
