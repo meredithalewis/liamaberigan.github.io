@@ -1,7 +1,17 @@
 ---
 title: "Applications"
-output: html_document
+output:
+  html_document:
+    toc: true
+    toc_float:
+      smooth_scroll: true
 ---
+```{css, echo=FALSE}
+h3 {
+  text-align: center;
+}
+```
+
 <hr />
 ## Exploring woodcock migration
 <br>
@@ -21,13 +31,19 @@ During my work with the Eastern Woodcock Migration Research Cooperative ([EWMRC]
 </div>
 </div>
 <hr />
+
+### Migration Exploration App
+<center>
+*View the app [here](https://www.woodcockmigration.org/migration.html)*
+</center>
+<br>
 ```{r, echo=FALSE, out.width="60%", out.height="60%", fig.cap="<br> The Migration Exploration App shows satellite-tagged woodcock migrating north in the spring", fig.show='hold', fig.align='center'}
 knitr::include_graphics("images/app_anim15.gif")
 #![<br>The Migration Exploration App shows satellite-tagged woodcock migrating north in the spring](images/app_anim15.gif)
 ``` 
 
 <hr />
-## Interactive habitat prioritization tools
+## Interactive habitat prioritization
 <br>
 <div class = row>
 <div class = col-md-4>
@@ -37,7 +53,7 @@ knitr::include_graphics("images/app_anim15.gif")
 </div>
 
 <div class = col-md-8>
-During a collaborative project with the [Pennsylvania Game Commission](www.google.com), we built an application to allow PGC employees to interactively weight migratory and breeding season habitat suitability when making woodcock habitat conservation decisions. The resulting tool, called [W-PAST](https://woodcock.shinyapps.io/W-PAST), has since been used to inform state-level management and support woodcock habitat funding proposals in Pennsylvania.
+During a collaborative project with the [Pennsylvania Game Commission](www.google.com), we built an application to allow PGC employees to interactively weight migratory and breeding season habitat suitability when making woodcock habitat conservation decisions. The resulting tool, called the Woodcock Priority Area Siting Tool ([W-PAST](https://woodcock.shinyapps.io/W-PAST)), has since been used to inform state-level management and support woodcock habitat funding proposals in Pennsylvania.
 W-PAST allows users to:
 
 1. Item 1
@@ -49,6 +65,12 @@ W-PAST allows users to:
 </div>
 </div>
 <hr />
+
+### Woodcock Priority Area Siting Tool 
+<center>
+*View the app [here](https://woodcock.shinyapps.io/W-PAST)*
+</center>
+<br>
 ```{r, echo=FALSE, out.width="60%", out.height="60%", fig.cap="W-PAST illustrates how woodcock habitat suitability changes between breeding and migratory seasons", fig.show='hold', fig.align='center'}
 knitr::include_graphics("images/wpast_anim50.gif")
 #![W-PAST illustrates how woodcock habitat suitability changes between breeding and migratory seasons](images/wpast_anim60.gif)

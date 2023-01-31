@@ -1,6 +1,11 @@
 ---
 title: "Research"
-output: html_document
+output:
+  html_document:
+    toc: true
+    toc_float:
+      collapsed: true
+      smooth_scroll: true
 ---
 <hr />
 ## Migratory strategies and habitat use

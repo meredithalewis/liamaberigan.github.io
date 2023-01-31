@@ -29,6 +29,9 @@
        h6 {font-size: 12px;}
        code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
        pre:not([class]) { background-color: white }</style>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
@@ -224,6 +227,69 @@ $(document).ready(function () {
 
 
 
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+
 
 </head>
 
@@ -231,6 +297,16 @@ $(document).ready(function () {
 
 
 <div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
 
 
 
@@ -324,6 +400,11 @@ $(document).ready(function () {
 </div>
 
 
+<style type="text/css">
+h3 {
+  text-align: center;
+}
+</style>
 <hr />
 <div id="exploring-woodcock-migration" class="section level2">
 <h2>Exploring woodcock migration</h2>
@@ -357,6 +438,13 @@ Data Exploration App</a> allows users to view full migrations from over
 </div>
 </div>
 <hr />
+<div id="migration-exploration-app" class="section level3">
+<h3>Migration Exploration App</h3>
+<center>
+<em>View the app <a
+href="https://www.woodcockmigration.org/migration.html">here</a></em>
+</center>
+<br>
 <div class="figure" style="text-align: center">
 <img src="images/app_anim15.gif" alt="&lt;br&gt; The Migration Exploration App shows satellite-tagged woodcock migrating north in the spring" width="60%" height="60%" />
 <p class="caption">
@@ -366,9 +454,9 @@ migrating north in the spring
 </div>
 <hr />
 </div>
-<div id="interactive-habitat-prioritization-tools"
-class="section level2">
-<h2>Interactive habitat prioritization tools</h2>
+</div>
+<div id="interactive-habitat-prioritization" class="section level2">
+<h2>Interactive habitat prioritization</h2>
 <br>
 <div class="row">
 <div class="col-md-4">
@@ -386,8 +474,9 @@ Canada)</p>
 href="www.google.com">Pennsylvania Game Commission</a>, we built an
 application to allow PGC employees to interactively weight migratory and
 breeding season habitat suitability when making woodcock habitat
-conservation decisions. The resulting tool, called <a
-href="https://woodcock.shinyapps.io/W-PAST">W-PAST</a>, has since been
+conservation decisions. The resulting tool, called the Woodcock Priority
+Area Siting Tool (<a
+href="https://woodcock.shinyapps.io/W-PAST">W-PAST</a>), has since been
 used to inform state-level management and support woodcock habitat
 funding proposals in Pennsylvania. W-PAST allows users to:</p>
 <ol style="list-style-type: decimal">
@@ -398,12 +487,20 @@ funding proposals in Pennsylvania. W-PAST allows users to:</p>
 </div>
 </div>
 <hr />
+<div id="woodcock-priority-area-siting-tool" class="section level3">
+<h3>Woodcock Priority Area Siting Tool</h3>
+<center>
+<em>View the app <a
+href="https://woodcock.shinyapps.io/W-PAST">here</a></em>
+</center>
+<br>
 <div class="figure" style="text-align: center">
 <img src="images/wpast_anim50.gif" alt="W-PAST illustrates how woodcock habitat suitability changes between breeding and migratory seasons" width="60%" height="60%" />
 <p class="caption">
 W-PAST illustrates how woodcock habitat suitability changes between
 breeding and migratory seasons
 </p>
+</div>
 </div>
 </div>
 
@@ -416,8 +513,8 @@ breeding and migratory seasons
 
 <hr />
 <p style="text-align: center;">Compiled in R with RMarkdown and Github Pages.<br />
-Copyright &copy; <span id="year"></span><a href="https://github.com/liamaberigan/"> Liam Berigan.</a></p>
-<p style="text-align: center;">liam.berigan at maine.edu</a></span></p>
+Copyright &copy; <span id="year"></span> Liam Berigan</p>
+<p style="text-align: center;"><a href="mailto: liam.berigan@maine.edu"> liam.berigan at maine.edu</a></span></p>
 
 <br>
 
@@ -428,6 +525,8 @@ Copyright &copy; <span id="year"></span><a href="https://github.com/liamaberigan
 <div class="tocify-extend-page" data-unique="tocify-extend-page" style="height: 0;"></div>
 
 
+</div>
+</div>
 
 </div>
 
@@ -460,6 +559,35 @@ $(document).ready(function () {
 
 <!-- code folding -->
 
+<script>
+$(document).ready(function ()  {
+
+    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
+    $('.unlisted.unnumbered').addClass('toc-ignore')
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>
