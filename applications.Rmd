@@ -8,20 +8,24 @@ output: html_document
 <div class = row>
 <div class = col-md-4>
 <center>
-![<br>A satellite-tagged American Woodcock (Billy Pope, ALDNR)](images/woodcock_transmitter_circle.png)
+![<br>An American Woodcock receiving a satellite tag<br>(Photo credit: Billy Pope, ALDNR)](images/woodcock_transmitter_circle.png)
 </center>
 </div>
 
 <div class = col-md-8>
-During my work with the Eastern Woodcock Migration Research Cooperative ([EWMRC](https://www.woodcockmigration.org/)) I built several tools to improve our ability to communicate results to the public. The first is the [Migration Exploration App](https://www.woodcockmigration.org/migration.html), which is used in concert with our weekly updates to update the public on the migratory routes and timing of tagged woodcock. The second application is the [Historical Data Exploration App](https://www.woodcockmigration.org/explore-data.html), which allows users to view full migrations from over 500 tagged woodcock throughout the course of the project.
-<br>
-<br>
-<center>
-![<br>The Migration Exploration App shows satellite-tagged woodcock migrating north in the spring](images/app_anim15.gif)
+During my work with the Eastern Woodcock Migration Research Cooperative ([EWMRC](https://www.woodcockmigration.org/)) I built several tools to improve our ability to communicate results to the public. 
 
-</center>
+1. The [Migration Exploration App](https://www.woodcockmigration.org/migration.html) is used in concert with our weekly updates to update the public on the migratory routes and timing of tagged woodcock. 
+
+2. The [Historical Data Exploration App](https://www.woodcockmigration.org/explore-data.html) allows users to view full migrations from over 500 tagged woodcock throughout the course of the project.
 </div>
 </div>
+<hr />
+```{r, echo=FALSE, out.width="60%", out.height="60%", fig.cap="<br> The Migration Exploration App shows satellite-tagged woodcock migrating north in the spring", fig.show='hold', fig.align='center'}
+knitr::include_graphics("images/app_anim15.gif")
+#![<br>The Migration Exploration App shows satellite-tagged woodcock migrating north in the spring](images/app_anim15.gif)
+``` 
+
 <hr />
 ## Interactive habitat prioritization tools
 <br>
@@ -34,13 +38,18 @@ During my work with the Eastern Woodcock Migration Research Cooperative ([EWMRC]
 
 <div class = col-md-8>
 During a collaborative project with the [Pennsylvania Game Commission](www.google.com), we built an application to allow PGC employees to interactively weight migratory and breeding season habitat suitability when making woodcock habitat conservation decisions. The resulting tool, called [W-PAST](https://woodcock.shinyapps.io/W-PAST), has since been used to inform state-level management and support woodcock habitat funding proposals in Pennsylvania.
-<center>
-![W-PAST illustrates how woodcock habitat suitability changes between breeding and migratory seasons](images/wpast_anim60.gif)
-</center>
-</div>
-</div>
+W-PAST allows users to:
 
-```{r, echo=FALSE, fig.cap = "Land cover at Heiberg Memorial Forest (Tully, NY) in 1936 (top) and 2015 (bottom).", fig.show='hold', fig.align='center'}
-#knitr::include_app(" https://woodcock.shinyapps.io/migration_explore_app/?_ga=2.264268303.1601805311.1674332143-1264357510.1664990729", height = "600px")
+1. Item 1
+
+2. Item 2
+
+3. Item 3
+
+</div>
+</div>
+<hr />
+```{r, echo=FALSE, out.width="60%", out.height="60%", fig.cap="W-PAST illustrates how woodcock habitat suitability changes between breeding and migratory seasons", fig.show='hold', fig.align='center'}
+knitr::include_graphics("images/wpast_anim50.gif")
+#![W-PAST illustrates how woodcock habitat suitability changes between breeding and migratory seasons](images/wpast_anim60.gif)
 ``` 
-

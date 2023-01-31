@@ -26,6 +26,8 @@ navbar:
       href: https://scholar.google.com/citations?user=ql-OqKQAAAAJ&hl=en
     - icon: fa-twitter
       href: https://twitter.com/LA_Berigan
+    - icon: fa-envelope
+      href: "mailto: liam.berigan@maine.edu"
 
 output_dir: "."
 output:

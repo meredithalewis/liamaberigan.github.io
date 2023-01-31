@@ -3,14 +3,13 @@ title: "Liam A. Berigan"
 output:
   html_document
 ---
-
+<br>
 <div class = row>
 <div class = col-md-4>
 ```{r, echo=FALSE, fig.show='hold', fig.align='center'}
 knitr::include_graphics("images/profile_photo_circle.png")
 ```
 </div>
-
 <div class = col-md-8>
 I am currently a doctoral candidate at the [University of Maine](https://www.umaine.edu) in the Department of Wildlife, Fisheries, and Conservation Biology. My work focuses on the movements, habitat use, and population dynamics of wildlife, especially bird species. I have particular interests in migration and the conservation of at-risk species through techniques such as translocation.
 
@@ -22,6 +21,6 @@ My CV is available [here](files/Liam_Berigan_CV_12_4_2022.pdf), and contact info
 
 <hr />
 <center>
-![Woodcock tagged in Vermont disperse throughout the southeast during their fall migration](images/VT_migration_animation.gif)
+![<br>Woodcock tagged in Vermont disperse throughout the southeast during their fall migration](images/VT_migration_animation.gif)
 
 </center>
