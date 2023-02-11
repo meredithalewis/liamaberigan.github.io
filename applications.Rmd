@@ -23,11 +23,11 @@ h3 {
 </div>
 
 <div class = col-md-8>
-During my work with the Eastern Woodcock Migration Research Cooperative ([EWMRC](https://www.woodcockmigration.org/)) I built several tools to improve our ability to communicate results to the public. 
+During my work with the Eastern Woodcock Migration Research Cooperative ([EWMRC](https://www.woodcockmigration.org/)) I built several tools to improve our ability to communicate results to the public. Both of these tools allow users to interactively explore the tracks of GPS-tagged woodcock, either in real time or through archived data.
 
 - The [Migration Exploration App](https://www.woodcockmigration.org/migration.html) is used in concert with our woodcock migration microblog to update the public on the migratory routes and timing of tagged woodcock. 
 
-- The [Historical Data Exploration App](https://www.woodcockmigration.org/explore-data.html) allows users to view full migrations from over 500 tagged woodcock throughout the course of the project.
+- The [Historical Data Exploration App](https://www.woodcockmigration.org/explore-data.html) allows users to view full migrations from >500 tagged woodcock throughout the course of the project.
 </div>
 </div>
 <hr />
