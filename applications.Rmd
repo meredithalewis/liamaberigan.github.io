@@ -25,9 +25,9 @@ h3 {
 <div class = col-md-8>
 During my work with the Eastern Woodcock Migration Research Cooperative ([EWMRC](https://www.woodcockmigration.org/)) I built several tools to improve our ability to communicate results to the public. 
 
-1. The [Migration Exploration App](https://www.woodcockmigration.org/migration.html) is used in concert with our weekly updates to update the public on the migratory routes and timing of tagged woodcock. 
+- The [Migration Exploration App](https://www.woodcockmigration.org/migration.html) is used in concert with our woodcock migration microblog to update the public on the migratory routes and timing of tagged woodcock. 
 
-2. The [Historical Data Exploration App](https://www.woodcockmigration.org/explore-data.html) allows users to view full migrations from over 500 tagged woodcock throughout the course of the project.
+- The [Historical Data Exploration App](https://www.woodcockmigration.org/explore-data.html) allows users to view full migrations from over 500 tagged woodcock throughout the course of the project.
 </div>
 </div>
 <hr />
@@ -54,13 +54,14 @@ knitr::include_graphics("images/app_anim15.gif")
 
 <div class = col-md-8>
 During a collaborative project with the [Pennsylvania Game Commission](www.google.com), we built an application to allow PGC employees to interactively weight migratory and breeding season habitat suitability when making woodcock habitat conservation decisions. The resulting tool, called the Woodcock Priority Area Siting Tool ([W-PAST](https://woodcock.shinyapps.io/W-PAST)), has since been used to inform state-level management and support woodcock habitat funding proposals in Pennsylvania.
-W-PAST allows users to:
 
-1. Item 1
+Advantages of W-PAST:
 
-2. Item 2
+1. Demonstrates how species distribution models can combine animal tracking data with traditional survey data
 
-3. Item 3
+2. Encourages consideration of habitat use throughout the full annual cycle
+
+3. Provides a platform for users to integrate management priorities into the interpretation of species distribution models
 
 </div>
 </div>
